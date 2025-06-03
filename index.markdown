@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Kristupas Portfolio
 ---
 
 ## 👋 Hello, I’m Kristupas Cilcius
