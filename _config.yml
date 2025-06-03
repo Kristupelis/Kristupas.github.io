@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Aspiring cybersecurity specialist with a foundation in 
   software engineering and a passion for secure, practical solutions. 
   Focused on ethical hacking, threat analysis, and building tools that enhance digital safety.
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
