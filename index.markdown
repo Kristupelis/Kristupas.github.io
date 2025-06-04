@@ -3,7 +3,7 @@ layout: default
 title: Kristupas Portfolio
 ---
 
-## 👋 Hello, I’m Kristupas Cilcius {#about}
+<h2 id="about">👋 Hello, I’m Kristupas Cilcius</h2>
 
 I'm a Cybersecurity enthusiast and Informatics Engineering student at **Kaunas University of Technology**.  
 I focus on ethical hacking, reverse engineering, and building secure tools.  
