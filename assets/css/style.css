@@ -1,27 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 body {
+  margin: 0;
   font-family: 'Fira Code', monospace;
   background-color: #0d1117;
   color: #c9d1d9;
-  margin: 2rem;
-  line-height: 1.6;
 }
 
-a {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161b22;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #30363d;
+}
+
+.nav-title {
+  font-size: 1.3rem;
+  font-weight: bold;
   color: #58a6ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #c9d1d9;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+.nav-links a:hover {
+  color: #58a6ff;
 }
 
-header, footer {
-  border-top: 1px solid #30363d;
-  border-bottom: 1px solid #30363d;
-  padding: 1rem 0;
-  text-align: center;
+.btn {
+  background-color: #238636;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #2ea043;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 h1, h2, h3 {
@@ -29,7 +63,13 @@ h1, h2, h3 {
 }
 
 section {
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid #30363d;
+  margin-top: 4rem;
+  color: #8b949e;
 }

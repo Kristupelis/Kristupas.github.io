@@ -3,20 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-  </header>
+  <nav class="navbar">
+    <div class="nav-title">Kristupas Cilcius</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="/assets/Kristupas_CV.pdf" class="btn" target="_blank">Download CV</a></li>
+    </ul>
+  </nav>
 
-  <section>
+  <main class="container">
     {{ content }}
-  </section>
+  </main>
 
   <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} Kristupas Cilcius</p>
+    <p>&copy; {{ site.time | date: '%Y' }} Kristupas Cilcius • All rights reserved</p>
   </footer>
 </body>
 </html>
