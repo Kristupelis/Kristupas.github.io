@@ -3,54 +3,61 @@ layout: default
 title: Kristupas Portfolio
 ---
 
-<section id="about">
-## 👋 Hello, I’m Kristupas Cilcius
+## 👋 Hello, I’m Kristupas Cilcius {#about}
 
-Cybersecurity enthusiast and Informatics Engineering student at **Kaunas University of Technology**. I focus on ethical hacking, reverse engineering, and building secure tools. Currently leveling up via **[TryHackMe](https://tryhackme.com/)** and developing impactful real-world projects.
-</section>
+I'm a Cybersecurity enthusiast and Informatics Engineering student at **Kaunas University of Technology**.  
+I focus on ethical hacking, reverse engineering, and building secure tools.  
+Currently sharpening my skills via hands-on labs on **[TryHackMe](https://tryhackme.com/)** and building real-world security tools.
 
-<section id="skills">
-## 🛡️ Skills
+---
 
-- **Languages**: C, C++, Python, PHP, JavaScript
-- **Web**: HTML, CSS, React
-- **Tools**: Wireshark, Burp Suite, Nmap, Metasploit
-- **Platforms**: Linux (Kali), Windows
-- **Others**: Git, MySQL
-</section>
+## 🛡️ Skills {#skills}
 
-<section id="projects">
-## 🧪 Projects
+- **Languages**: C, C++, Python, PHP, JavaScript  
+- **Web**: HTML, CSS, React  
+- **Tools**: Wireshark, Burp Suite, Nmap, Metasploit  
+- **Platforms**: Linux (Kali), Windows  
+- **Others**: Git, MySQL  
 
-### 🔍 Secure Browser Extension (700+ team hours)
-A cross-browser extension with:
-- URL/file scanning
-- Weak password detection
-- Cookie & tracker analysis
-- Fully documented
+---
 
-Built with JS, WebExtensions API, VirusTotal, and open threat intel.
+## 🧪 Projects {#projects}
+
+### 🔍 Secure Browser Extension (Team Project — 700 hrs)
+
+A cross-browser security extension built by a student team.  
+**Features**:
+- ✅ URL scanning
+- ✅ File analysis
+- ✅ Weak password detection
+- ✅ Cookie scanning & deletion
+- ✅ Tracker blocking
+- ✅ Full user documentation
+
+> Built using JavaScript, WebExtensions API, VirusTotal, and open-source threat intel APIs.
 
 ### 🧠 Homelab Automation with Arduino
-- Arduino sensors + Processing UI
-- Secure telemetry
-- Custom home automation
-</section>
 
-<section id="education">
-## 🎓 Education
+- Arduino sensors + secure telemetry  
+- GUI control with Processing  
+- Local dashboard and automation
+
+---
+
+## 🎓 Education {#education}
 
 **Kaunas University of Technology**  
 BSc in Informatics Engineering — *2022–Present*
-</section>
 
-<section id="contact">
-## 📫 Contact
+---
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/kristupas-cilcius-052b27252/)
-- 🧠 [TryHackMe](https://tryhackme.com/)
-- 💻 [GitHub](https://github.com/Kristupelis)
-- 📧 ckristupas@gmail.com
-</section>
+## 📫 Contact {#contact}
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/kristupas-cilcius-052b27252/)  
+- 🧠 [TryHackMe](https://tryhackme.com/)  
+- 💻 [GitHub](https://github.com/Kristupelis)  
+- 📧 [ckristupas@gmail.com](mailto:ckristupas@gmail.com)
+
+---
 
 > *“Stay curious. Break things. Learn fast.”*
