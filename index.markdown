@@ -11,7 +11,7 @@ Currently sharpening my skills via hands-on labs on **[TryHackMe](https://tryhac
 
 ---
 
-## 🛡️ Skills {#skills}
+<h2 id="skills">🛡️ Skills</h2>
 
 - **Languages**: C, C++, Python, PHP, JavaScript  
 - **Web**: HTML, CSS, React  
